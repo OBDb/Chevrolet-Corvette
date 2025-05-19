@@ -1,135 +1,135 @@
 { "commands": [
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "0010"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "0010"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_MASS_AIRFLOW_SENSOR", "path": "ECU", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "unit": "gramsPerSecond" }, "name": "Mass airflow sensor"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "002F"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "002F"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_REMAINING_FUEL_IN_TANK", "path": "Fuel",    "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Remaining fuel in tank"},
     {"id": "CORVETTE_BATTERY_VOLTAGE",        "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 10,  "div": 100, "unit": "volts"   }, "name": "Battery voltage"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "005E"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "005E"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_FUEL_CONSUMPTION_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 500, "div": 10000, "unit": "liters" }, "name": "Fuel consumption rate"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "11EA"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "11EA"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_MISFIRES_CURRENT_CYL_5", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.5"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "11EB"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "11EB"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_MISFIRES_CURRENT_CYL_6", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.6"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "1205"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "1205"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_MISFIRES_CURRENT_CYL_2", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.2"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "1206"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "1206"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_MISFIRES_CURRENT_CYL_1", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.1"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "1207"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "1207"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_MISFIRES_CURRENT_CYL_3", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.3"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "1208"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "1208"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_MISFIRES_CURRENT_CYL_4", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires current cyl.4"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "153E"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "153E"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_ENGINE_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "20AC"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "20AC"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_FUEL_INJECTION_CYL_1", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection cyl.1"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "20AD"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "20AD"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_FUEL_INJECTION_CYL_2", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection cyl.2"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "20AE"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "20AE"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_FUEL_INJECTION_CYL_3", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection cyl.3"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "20AF"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "20AF"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_FUEL_INJECTION_CYL_4", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection cyl.4"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "20B0"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "20B0"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_FUEL_INJECTION_CYL_5", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection cyl.5"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "20B1"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "20B1"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_FUEL_INJECTION_CYL_6", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection cyl.6"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "20E3"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "20E3"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_BOOST_PRESSURE__ACTUAL", "path": "ECU", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure: actual"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "2344"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "2344"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_ENGINE_OIL_ABSOLUTE_PRESSURE_SENSOR", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil absolute pressure sensor"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "2345"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "2345"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_ENGINE_EOP__ACTUAL", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil pressure: actual"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "30AD"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "30AD"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_CHARGE_AIR_COOLER_T_SENSOR_1", "path": "Battery", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Charge air cooler temperature sensor 1"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "30AE"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "30AE"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_CHARGE_AIR_COOLER_T_SENSOR_2", "path": "Battery", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Charge air cooler temperature sensor 2"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "328A"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "328A"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_BOOST_PRESSURE__DESIRED", "path": "ECU", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure: desired"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "34D8"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "34D8"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_PARTICULATE_FILTER_PRESSURE", "path": "ECU", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Particulate filter pressure"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "36A7"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "36A7"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_AIR_FILTER_LIFE_REMAINING", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Air filter life remaining"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "37A7"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "37A7"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_ENGINE_EOP__DESIRED", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil pressure: desired"}
   ]},
-{ "hdr": "DA11", "fcm1": true, "dbg": true, "cmd": {"22": "4DC0"}, "freq": 1,
+{ "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "4DC0"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_ENGINE_OIL_LIFE_REMAINING", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine oil life remaining"}
   ]},
-{ "hdr": "DA18", "fcm1": true, "dbg": true, "cmd": {"22": "1940"}, "freq": 1,
+{ "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1940"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_TRANSMISSION_FLUID_T", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "DA18", "fcm1": true, "dbg": true, "cmd": {"22": "1991"}, "freq": 1,
+{ "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1991"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_TORQUE_CONVERTER_CLUTCH_SLIP_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 100, "mul": 1250, "div": 10000, "sign": true, "unit": "rpm" }, "name": "Torque converter clutch slip speed"}
   ]},
-{ "hdr": "DA18", "fcm1": true, "dbg": true, "cmd": {"22": "1B30"}, "freq": 1,
+{ "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "add": -3, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "DA18", "fcm1": true, "dbg": true, "cmd": {"22": "295A"}, "freq": 1,
+{ "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "295A"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_TRANSMISSION_FLUID_T_FILTERED", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature filtered"}
   ]},
-{ "hdr": "DA1A", "fcm1": true, "dbg": true, "cmd": {"22": "448F"}, "freq": 1,
+{ "hdr": "DA1A", "pri": "14", "fcm1": true, "cmd": {"22": "448F"}, "freq": 1,
   "signals": [
-    {"id": "CORVETTE_4WD__ODOMETER", "path": "Trips", "fmt": { "len": 32, "max": 100, "mul": 156.25, "div": 10000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "CORVETTE_ODO", "path": "Trips", "fmt": { "len": 32, "max": 100, "mul": 156.25, "div": 10000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "DA28", "fcm1": true, "dbg": true, "cmd": {"22": "4A7A"}, "freq": 1,
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4A7A"}, "freq": 0.25,
   "signals": [
-    {"id": "CORVETTE_TIRE_FL_VSS", "path": "Movement", "fmt": {           "len": 8, "max": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "CORVETTE_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "CORVETTE_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "CORVETTE_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+    {"id": "CORVETTE_TIRE_FL_VSS", "path": "Movement", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "CORVETTE_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "CORVETTE_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "CORVETTE_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
 ]
 }
