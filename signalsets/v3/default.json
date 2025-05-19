@@ -64,17 +64,24 @@
   "signals": [
     {"id": "CORVETTE_EOL", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine oil life remaining"}
   ]},
-{ "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1940"}, "freq": 1, "dbgfilter": { "to": 2024 },
+{ "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1940"}, "freq": 1, "dbgfilter": { "to": 2025 },
   "signals": [
     {"id": "CORVETTE_TFT", "path": "Engine", "fmt": { "len": 8, "max": 225, "add": -30, "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 0.25, "dbgfilter": { "to": 2024 },
+{ "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 0.25, "dbgfilter": { "to": 2025 },
   "signals": [
     {"id": "CORVETTE_GEAR", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "1": { "description": "Neutral", "value": "NEUTRAL" },
           "2": { "description": "Park",    "value": "PARK" },
           "3": { "description": "Reverse", "value": "REVERSE" },
-          "4": { "description": "Drive",   "value": "DRIVE" }
+          "4": { "description": "Drive, gear 1",   "value": "D1" },
+          "5": { "description": "Drive, gear 2",   "value": "D2" },
+          "6": { "description": "Drive, gear 3",   "value": "D3" },
+          "7": { "description": "Drive, gear 4",   "value": "D4" },
+          "8": { "description": "Drive, gear 5",   "value": "D5" },
+          "9": { "description": "Drive, gear 6",   "value": "D6" },
+          "A": { "description": "Drive, gear 7",   "value": "D7" },
+          "B": { "description": "Drive, gear 8",   "value": "D8" }
         }}
     }
   ]},
@@ -89,21 +96,21 @@
     {"id": "CORVETTE_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "CORVETTE_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4A7C"}, "freq": 0.25, "dbgfilter": { "to": 2024 },
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4A7C"}, "freq": 0.25, "dbgfilter": { "to": 2025 },
   "signals": [
     {"id": "CORVETTE_BP", "path": "Engine", "fmt": { "len": 8, "max": 11700, "min": -13800, "mul": 100, "add": -1000, "sign": true, "unit": "kilopascal" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C2D"}, "freq": 0.1, "dbgfilter": { "to": 2024 },
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C2D"}, "freq": 0.1, "dbgfilter": { "to": 2025 },
   "signals": [
     {"id": "CORVETTE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720.874, "min": -720.896, "mul": 220, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C2F"}, "freq": 0.1, "dbgfilter": { "to": 2024 },
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C2F"}, "freq": 0.1, "dbgfilter": { "to": 2025 },
   "signals": [
-    {"id": "CORVETTE_LAT_G", "path": "Orientation", "fmt": { "len": 16, "max": 511, "min": -511, "mul": 156.2, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Lateral acceleration"}
+    {"id": "CORVETTE_LAT_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Lateral acceleration"}
   ]},
-{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C30"}, "freq": 0.1, "dbgfilter": { "to": 2024 },
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C30"}, "freq": 0.1, "dbgfilter": { "to": 2025 },
   "signals": [
-    {"id": "CORVETTE_LNG_G", "path": "Orientation", "fmt": { "len": 16, "max": 511, "min": -511, "mul": 156.2, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Longtitudinal acceleration"}
+    {"id": "CORVETTE_LNG_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Longtitudinal acceleration"}
   ]}
 ]
 }
