@@ -1,0 +1,12 @@
+command_id: DB33.0142
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    18DAF1450441423734
+    18DAF1180441423769
+    18DAF14004414237F4
+    18DAF1280441423865
+    18DAF111044142379A
+  expected_values:
+    VPWR: 14.234
