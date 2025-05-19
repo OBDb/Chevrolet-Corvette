@@ -81,7 +81,7 @@
           "8": { "description": "Drive, gear 5",   "value": "D5" },
           "9": { "description": "Drive, gear 6",   "value": "D6" },
           "A": { "description": "Drive, gear 7",   "value": "D7" },
-          "B": { "description": "Drive, gear 8",   "value": "D8" },
+          "B": { "description": "Drive, gear 8",   "value": "D8" }
         }}
     }
   ]},
