@@ -1,0 +1,10 @@
+command_id: DA11.221205
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF1110462120500
+  expected_values:
+    CORVETTE_MIS_2: 0
+- response: 18DAF1110462120502
+  expected_values:
+    CORVETTE_MIS_2: 0.78431

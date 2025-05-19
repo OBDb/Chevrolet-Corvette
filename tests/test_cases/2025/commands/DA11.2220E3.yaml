@@ -1,0 +1,7 @@
+command_id: DA11.2220E3
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF111056220E30000
+  expected_values:
+    CORVETTE_BP_ACT: 0

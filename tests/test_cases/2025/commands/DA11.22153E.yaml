@@ -1,0 +1,19 @@
+command_id: DA11.22153E
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF1110462153E7B
+  expected_values:
+    CORVETTE_EOT: 93
+- response: 18DAF1110462153E7C
+  expected_values:
+    CORVETTE_EOT: 94
+- response: 18DAF1110462153E7D
+  expected_values:
+    CORVETTE_EOT: 95
+- response: 18DAF1110462153E7E
+  expected_values:
+    CORVETTE_EOT: 96
+- response: 18DAF1110462153E7F
+  expected_values:
+    CORVETTE_EOT: 97

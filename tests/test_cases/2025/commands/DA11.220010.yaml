@@ -1,0 +1,13 @@
+command_id: DA11.220010
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF111056200100000
+  expected_values:
+    CORVETTE_MAF: 0
+- response: 18DAF1110562001012A3
+  expected_values:
+    CORVETTE_MAF: 47.71
+- response: 18DAF1110562001012EF
+  expected_values:
+    CORVETTE_MAF: 48.47
