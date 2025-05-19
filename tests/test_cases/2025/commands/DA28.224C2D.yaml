@@ -1,0 +1,13 @@
+command_id: DA28.224C2D
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 142AF12805624C2D001E
+  expected_values:
+    CORVETTE_STEER_ANGLE: 0.66
+- response: 142AF12805624C2DFF77
+  expected_values:
+    CORVETTE_STEER_ANGLE: -3.014
+- response: 142AF12805624C2DFFF9
+  expected_values:
+    CORVETTE_STEER_ANGLE: -0.154
