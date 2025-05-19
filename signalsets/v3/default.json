@@ -93,15 +93,15 @@
   "signals": [
     {"id": "CORVETTE_BP", "path": "Engine", "fmt": { "len": 8, "max": 11700, "min": -13800, "mul": 100, "add": -1000, "sign": true, "unit": "kilopascal" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "DA28", "fcm1": true, "cmd": {"22": "4C2D"}, "freq": 1, "dbgfilter": { "to": 2024 },
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C2D"}, "freq": 1, "dbgfilter": { "to": 2024 },
   "signals": [
     {"id": "CORVETTE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720.874, "min": -720.896, "mul": 220, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "DA28", "fcm1": true, "cmd": {"22": "4C2F"}, "freq": 1,
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C2F"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_LAT_G", "path": "Orientation", "fmt": { "len": 16, "max": 511, "min": -511, "mul": 156.2, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Lateral acceleration"}
   ]},
-{ "hdr": "DA28", "fcm1": true, "cmd": {"22": "4C30"}, "freq": 1,
+{ "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C30"}, "freq": 1,
   "signals": [
     {"id": "CORVETTE_LNG_G", "path": "Orientation", "fmt": { "len": 16, "max": 511, "min": -511, "mul": 156.2, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Longtitudinal acceleration"}
   ]}
