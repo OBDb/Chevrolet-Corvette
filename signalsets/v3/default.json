@@ -71,17 +71,17 @@
 { "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 0.25, "dbgfilter": { "to": 2025 },
   "signals": [
     {"id": "CORVETTE_GEAR", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "1": { "description": "Neutral", "value": "NEUTRAL" },
-          "2": { "description": "Park",    "value": "PARK" },
-          "3": { "description": "Reverse", "value": "REVERSE" },
-          "4": { "description": "Drive, gear 1",   "value": "D1" },
-          "5": { "description": "Drive, gear 2",   "value": "D2" },
-          "6": { "description": "Drive, gear 3",   "value": "D3" },
-          "7": { "description": "Drive, gear 4",   "value": "D4" },
-          "8": { "description": "Drive, gear 5",   "value": "D5" },
-          "9": { "description": "Drive, gear 6",   "value": "D6" },
-          "A": { "description": "Drive, gear 7",   "value": "D7" },
-          "B": { "description": "Drive, gear 8",   "value": "D8" }
+          "1":  { "description": "Neutral",       "value": "NEUTRAL" },
+          "2":  { "description": "Park",          "value": "PARK" },
+          "3":  { "description": "Reverse",       "value": "REVERSE" },
+          "4":  { "description": "Drive, gear 1", "value": "D1" },
+          "5":  { "description": "Drive, gear 2", "value": "D2" },
+          "6":  { "description": "Drive, gear 3", "value": "D3" },
+          "7":  { "description": "Drive, gear 4", "value": "D4" },
+          "8":  { "description": "Drive, gear 5", "value": "D5" },
+          "9":  { "description": "Drive, gear 6", "value": "D6" },
+          "10": { "description": "Drive, gear 7", "value": "D7" },
+          "11": { "description": "Drive, gear 8", "value": "D8" }
         }}
     }
   ]},
