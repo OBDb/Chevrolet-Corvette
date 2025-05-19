@@ -54,7 +54,7 @@
   ]},
 { "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "34D8"}, "freq": 1, "dbgfilter": { "to": 2024 },
   "signals": [
-    {"id": "CORVETTE_DPF_PRESS", "path": "ECU", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Particulate filter pressure"}
+    {"id": "CORVETTE_DPF_PRESS", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Particulate filter pressure"}
   ]},
 { "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "36A7"}, "freq": 30, "dbgfilter": { "to": 2024 },
   "signals": [
@@ -62,7 +62,7 @@
   ]},
 { "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "4DC0"}, "freq": 30, "dbgfilter": { "to": 2024 },
   "signals": [
-    {"id": "CORVETTE_EOL", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine oil life remaining"}
+    {"id": "CORVETTE_EOL", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine oil life remaining"}
   ]},
 { "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1940"}, "freq": 1, "dbgfilter": { "to": 2024 },
   "signals": [
