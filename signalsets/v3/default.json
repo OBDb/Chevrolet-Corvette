@@ -70,7 +70,13 @@
   ]},
 { "hdr": "DA18", "pri": "14", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 0.25, "dbgfilter": { "to": 2024 },
   "signals": [
-    {"id": "CORVETTE_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "nullmin": 0, "unit": "scalar" }, "name": "Current gear"}
+    {"id": "CORVETTE_GEAR", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+          "1": { "description": "Neutral", "value": "NEUTRAL" },
+          "2": { "description": "Park",    "value": "PARK" },
+          "3": { "description": "Reverse", "value": "REVERSE" },
+          "4": { "description": "Drive",   "value": "DRIVE" }
+        }}
+    }
   ]},
 { "hdr": "DA1A", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "448F"}, "freq": 1, "filter": { "to": 2024 },
   "signals": [
