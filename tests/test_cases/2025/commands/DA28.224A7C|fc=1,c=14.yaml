@@ -1,6 +1,4 @@
-command_id: DA28.224A7C
-can_id_format: TWENTY_NINE_BIT
-extended_addressing_enabled: false
+command_id: DA28.224A7C|fc=1,c=14
 test_cases:
 - response: 142AF12804624A7C0A
   expected_values:
