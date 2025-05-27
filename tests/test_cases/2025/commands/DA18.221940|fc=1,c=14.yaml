@@ -1,25 +1,23 @@
-command_id: DA18.221940
-can_id_format: TWENTY_NINE_BIT
-extended_addressing_enabled: false
+command_id: DA18.221940|fc=1,c=14
 test_cases:
 - response: 142AF1180462194078
   expected_values:
-    CORVETTE_TFT: 90
+    CORVETTE_TFT: 80
 - response: 142AF1180462194079
   expected_values:
-    CORVETTE_TFT: 91
+    CORVETTE_TFT: 81
 - response: 142AF118046219407A
   expected_values:
-    CORVETTE_TFT: 92
+    CORVETTE_TFT: 82
 - response: 142AF118046219407B
   expected_values:
-    CORVETTE_TFT: 93
+    CORVETTE_TFT: 83
 - response: 142AF118046219407C
   expected_values:
-    CORVETTE_TFT: 94
+    CORVETTE_TFT: 84
 - response: 142AF118046219407D
   expected_values:
-    CORVETTE_TFT: 95
+    CORVETTE_TFT: 85
 - response: 142AF118046219407E
   expected_values:
-    CORVETTE_TFT: 96
+    CORVETTE_TFT: 86
