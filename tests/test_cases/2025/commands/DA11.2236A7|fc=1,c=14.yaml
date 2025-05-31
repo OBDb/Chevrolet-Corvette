@@ -1,5 +1,15 @@
 command_id: DA11.2236A7|fc=1,c=14
 test_cases:
-- response: 18DAF111056236A75F10
+- response: 18DAF111056236A75A10
   expected_values:
-    CORVETTE_AIRFILT_LIFE: 95
+    CORVETTE_AIRFILT_LIFE: 90
+- response: |-
+    2236A7
+    18DAF111056236A75A10
+  expected_values:
+    CORVETTE_AIRFILT_LIFE: 90
+- response: |-
+    2236A71
+    18DAF111056236A75A10
+  expected_values:
+    CORVETTE_AIRFILT_LIFE: 90
