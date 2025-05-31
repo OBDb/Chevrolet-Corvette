@@ -3,9 +3,25 @@ test_cases:
 - response: 18DAF111056200100000
   expected_values:
     CORVETTE_MAF: 0
-- response: 18DAF1110562001012A3
+- response: 18DAF111056200100201
   expected_values:
-    CORVETTE_MAF: 47.71
-- response: 18DAF1110562001012EF
+    CORVETTE_MAF: 5.13
+- response: 18DAF111056200100206
   expected_values:
-    CORVETTE_MAF: 48.47
+    CORVETTE_MAF: 5.18
+- response: 18DAF11105620010021C
+  expected_values:
+    CORVETTE_MAF: 5.4
+- response: 18DAF111056200100220
+  expected_values:
+    CORVETTE_MAF: 5.44
+- response: |-
+    220010
+    18DAF111056200100209
+  expected_values:
+    CORVETTE_MAF: 5.21
+- response: |-
+    2200101
+    18DAF111056200100208
+  expected_values:
+    CORVETTE_MAF: 5.2

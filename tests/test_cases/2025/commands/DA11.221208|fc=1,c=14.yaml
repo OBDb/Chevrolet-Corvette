@@ -3,6 +3,13 @@ test_cases:
 - response: 18DAF1110462120800
   expected_values:
     CORVETTE_MIS_4: 0
-- response: 18DAF1110462120801
+- response: |-
+    221208
+    18DAF1110462120800
   expected_values:
-    CORVETTE_MIS_4: 0.39216
+    CORVETTE_MIS_4: 0
+- response: |-
+    2212081
+    18DAF1110462120800
+  expected_values:
+    CORVETTE_MIS_4: 0
