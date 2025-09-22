@@ -1,24 +1,24 @@
 command_id: DA11.22153E|fc=1,c=14
 test_cases:
-- response: 18DAF1110462153E62
-  expected_values:
+- expected_values:
     CORVETTE_EOT: 58
-- response: 18DAF1110462153E68
-  expected_values:
+  response: 18DAF1110462153E62
+- expected_values:
     CORVETTE_EOT: 64
-- response: 18DAF1110462153E6A
-  expected_values:
+  response: 18DAF1110462153E68
+- expected_values:
     CORVETTE_EOT: 66
-- response: 18DAF1110462153E6B
-  expected_values:
+  response: 18DAF1110462153E6A
+- expected_values:
     CORVETTE_EOT: 67
-- response: |-
+  response: 18DAF1110462153E6B
+- expected_values:
+    CORVETTE_EOT: 64
+  response: |-
     22153E
     18DAF1110462153E68
-  expected_values:
-    CORVETTE_EOT: 64
-- response: |-
+- expected_values:
+    CORVETTE_EOT: 63
+  response: |-
     22153E1
     18DAF1110462153E67
-  expected_values:
-    CORVETTE_EOT: 63

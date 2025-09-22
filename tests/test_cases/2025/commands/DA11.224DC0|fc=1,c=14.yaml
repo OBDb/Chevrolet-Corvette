@@ -1,15 +1,15 @@
 command_id: DA11.224DC0|fc=1,c=14
 test_cases:
-- response: 18DAF11104624DC062
-  expected_values:
+- expected_values:
     CORVETTE_EOL: 38.43137
-- response: |-
+  response: 18DAF11104624DC062
+- expected_values:
+    CORVETTE_EOL: 38.43137
+  response: |-
     224DC0
     18DAF11104624DC062
-  expected_values:
+- expected_values:
     CORVETTE_EOL: 38.43137
-- response: |-
+  response: |-
     224DC01
     18DAF11104624DC062
-  expected_values:
-    CORVETTE_EOL: 38.43137

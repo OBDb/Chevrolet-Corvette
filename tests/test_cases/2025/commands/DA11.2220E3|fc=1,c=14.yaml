@@ -1,15 +1,15 @@
 command_id: DA11.2220E3|fc=1,c=14
 test_cases:
-- response: 18DAF111056220E30000
-  expected_values:
+- expected_values:
     CORVETTE_BP_ACT: 0
-- response: |-
+  response: 18DAF111056220E30000
+- expected_values:
+    CORVETTE_BP_ACT: 0
+  response: |-
     2220E3
     18DAF111056220E30000
-  expected_values:
+- expected_values:
     CORVETTE_BP_ACT: 0
-- response: |-
+  response: |-
     2220E31
     18DAF111056220E30000
-  expected_values:
-    CORVETTE_BP_ACT: 0
