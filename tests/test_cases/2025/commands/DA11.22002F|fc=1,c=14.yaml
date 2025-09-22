@@ -1,22 +1,22 @@
 command_id: DA11.22002F|fc=1,c=14
 test_cases:
-- response: 18DAF1110462002F6D
-  expected_values:
+- expected_values:
     CORVETTE_AUX_V: 10.9
     CORVETTE_FLI: 42.7451
-- response: 18DAF1110462002F6E
-  expected_values:
+  response: 18DAF1110462002F6D
+- expected_values:
     CORVETTE_AUX_V: 11
     CORVETTE_FLI: 43.13725
-- response: |-
+  response: 18DAF1110462002F6E
+- expected_values:
+    CORVETTE_AUX_V: 10.9
+    CORVETTE_FLI: 42.7451
+  response: |-
     22002F
     18DAF1110462002F6D
-  expected_values:
+- expected_values:
     CORVETTE_AUX_V: 10.9
     CORVETTE_FLI: 42.7451
-- response: |-
+  response: |-
     22002F1
     18DAF1110462002F6D
-  expected_values:
-    CORVETTE_AUX_V: 10.9
-    CORVETTE_FLI: 42.7451

@@ -1,27 +1,27 @@
 command_id: DA11.220010|fc=1,c=14
 test_cases:
-- response: 18DAF111056200100000
-  expected_values:
+- expected_values:
     CORVETTE_MAF: 0
-- response: 18DAF111056200100201
-  expected_values:
+  response: 18DAF111056200100000
+- expected_values:
     CORVETTE_MAF: 5.13
-- response: 18DAF111056200100206
-  expected_values:
+  response: 18DAF111056200100201
+- expected_values:
     CORVETTE_MAF: 5.18
-- response: 18DAF11105620010021C
-  expected_values:
+  response: 18DAF111056200100206
+- expected_values:
     CORVETTE_MAF: 5.4
-- response: 18DAF111056200100220
-  expected_values:
+  response: 18DAF11105620010021C
+- expected_values:
     CORVETTE_MAF: 5.44
-- response: |-
+  response: 18DAF111056200100220
+- expected_values:
+    CORVETTE_MAF: 5.21
+  response: |-
     220010
     18DAF111056200100209
-  expected_values:
-    CORVETTE_MAF: 5.21
-- response: |-
+- expected_values:
+    CORVETTE_MAF: 5.2
+  response: |-
     2200101
     18DAF111056200100208
-  expected_values:
-    CORVETTE_MAF: 5.2

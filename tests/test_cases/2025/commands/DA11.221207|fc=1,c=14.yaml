@@ -1,15 +1,15 @@
 command_id: DA11.221207|fc=1,c=14
 test_cases:
-- response: 18DAF1110462120700
-  expected_values:
+- expected_values:
     CORVETTE_MIS_3: 0
-- response: |-
+  response: 18DAF1110462120700
+- expected_values:
+    CORVETTE_MIS_3: 0
+  response: |-
     221207
     18DAF1110462120700
-  expected_values:
+- expected_values:
     CORVETTE_MIS_3: 0
-- response: |-
+  response: |-
     2212071
     18DAF1110462120700
-  expected_values:
-    CORVETTE_MIS_3: 0

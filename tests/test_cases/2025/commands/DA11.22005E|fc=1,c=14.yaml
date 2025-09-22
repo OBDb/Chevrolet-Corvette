@@ -1,21 +1,21 @@
 command_id: DA11.22005E|fc=1,c=14
 test_cases:
-- response: 18DAF1110562005E0000
-  expected_values:
+- expected_values:
     CORVETTE_FUEL_RATE: 0
-- response: 18DAF1110562005E0029
-  expected_values:
+  response: 18DAF1110562005E0000
+- expected_values:
     CORVETTE_FUEL_RATE: 2.05
-- response: 18DAF1110562005E002A
-  expected_values:
+  response: 18DAF1110562005E0029
+- expected_values:
     CORVETTE_FUEL_RATE: 2.1
-- response: |-
+  response: 18DAF1110562005E002A
+- expected_values:
+    CORVETTE_FUEL_RATE: 2.1
+  response: |-
     22005E
     18DAF1110562005E002A
-  expected_values:
-    CORVETTE_FUEL_RATE: 2.1
-- response: |-
+- expected_values:
+    CORVETTE_FUEL_RATE: 2
+  response: |-
     22005E1
     18DAF1110562005E0028
-  expected_values:
-    CORVETTE_FUEL_RATE: 2
