@@ -4,17 +4,8 @@ test_cases:
     CORVETTE_EO_AP: 96
   response: 18DAF1110462234418
 - expected_values:
-    CORVETTE_EO_AP: 300
-  response: 18DAF111046223444B
-- expected_values:
-    CORVETTE_EO_AP: 308
-  response: 18DAF111046223444D
-- expected_values:
-    CORVETTE_EO_AP: 312
-  response: 18DAF111046223444E
-- expected_values:
-    CORVETTE_EO_AP: 316
-  response: 18DAF111046223444F
+    CORVETTE_EO_AP: 328
+  response: 18DAF1110462234452
 - expected_values:
     CORVETTE_EO_AP: 308
   response: |-

@@ -4,6 +4,9 @@ test_cases:
     CORVETTE_MIS_5: 0
   response: 18DAF111046211EA00
 - expected_values:
+    CORVETTE_MIS_5: 0.39216
+  response: 18DAF111046211EA01
+- expected_values:
     CORVETTE_MIS_5: 0
   response: |-
     2211EA

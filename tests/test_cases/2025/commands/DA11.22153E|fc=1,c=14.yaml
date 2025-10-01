@@ -4,14 +4,8 @@ test_cases:
     CORVETTE_EOT: 58
   response: 18DAF1110462153E62
 - expected_values:
-    CORVETTE_EOT: 64
-  response: 18DAF1110462153E68
-- expected_values:
-    CORVETTE_EOT: 66
-  response: 18DAF1110462153E6A
-- expected_values:
-    CORVETTE_EOT: 67
-  response: 18DAF1110462153E6B
+    CORVETTE_EOT: 87
+  response: 18DAF1110462153E7F
 - expected_values:
     CORVETTE_EOT: 64
   response: |-

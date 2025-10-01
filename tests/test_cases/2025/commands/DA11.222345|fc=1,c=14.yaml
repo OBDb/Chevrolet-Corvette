@@ -4,17 +4,8 @@ test_cases:
     CORVETTE_EOP_ACT: 0
   response: 18DAF1110462234500
 - expected_values:
-    CORVETTE_EOP_ACT: 204
-  response: 18DAF1110462234533
-- expected_values:
-    CORVETTE_EOP_ACT: 208
-  response: 18DAF1110462234534
-- expected_values:
-    CORVETTE_EOP_ACT: 212
-  response: 18DAF1110462234535
-- expected_values:
-    CORVETTE_EOP_ACT: 216
-  response: 18DAF1110462234536
+    CORVETTE_EOP_ACT: 228
+  response: 18DAF1110462234539
 - expected_values:
     CORVETTE_EOP_ACT: 212
   response: |-

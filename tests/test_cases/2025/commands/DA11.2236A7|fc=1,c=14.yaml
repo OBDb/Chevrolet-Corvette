@@ -4,6 +4,9 @@ test_cases:
     CORVETTE_AIRFILT_LIFE: 90
   response: 18DAF111056236A75A10
 - expected_values:
+    CORVETTE_AIRFILT_LIFE: 95
+  response: 18DAF111056236A75F10
+- expected_values:
     CORVETTE_AIRFILT_LIFE: 90
   response: |-
     2236A7
