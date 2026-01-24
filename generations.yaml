@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Chevrolet_Corvette"
+
 generations:
   - name: "First Generation (C1)"
     start_year: 1953
