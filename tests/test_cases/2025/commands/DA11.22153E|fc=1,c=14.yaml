@@ -1,6 +1,9 @@
 command_id: DA11.22153E|fc=1,c=14
 test_cases:
 - expected_values:
+    CORVETTE_EOT: 71
+  response: 142AF1110462153E6F
+- expected_values:
     CORVETTE_EOT: 58
   response: 18DAF1110462153E62
 - expected_values:
