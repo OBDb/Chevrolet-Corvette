@@ -4,6 +4,9 @@ test_cases:
     CORVETTE_TFT: 60
   response: 142AF1180462194064
 - expected_values:
+    CORVETTE_TFT: 68
+  response: 142AF118046219406C
+- expected_values:
     CORVETTE_TFT: 80
   response: 142AF1180462194078
 - expected_values:

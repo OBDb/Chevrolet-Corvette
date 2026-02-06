@@ -1,8 +1,8 @@
 command_id: DA11.222344|fc=1,c=14
 test_cases:
 - expected_values:
-    CORVETTE_EO_AP: 308
-  response: 142AF111046223444D
+    CORVETTE_EO_AP: 296
+  response: 142AF111046223444A
 - expected_values:
     CORVETTE_EO_AP: 96
   response: 18DAF1110462234418

@@ -1,17 +1,14 @@
 command_id: DA11.220010|fc=1,c=14
 test_cases:
 - expected_values:
-    CORVETTE_MAF: 5.35
-  response: 142AF111056200100217
+    CORVETTE_MAF: 4.98
+  response: 142AF1110562001001F2
 - expected_values:
     CORVETTE_MAF: 0
   response: 18DAF111056200100000
 - expected_values:
     CORVETTE_MAF: 47.71
   response: 18DAF1110562001012A3
-- expected_values:
-    CORVETTE_MAF: 48.47
-  response: 18DAF1110562001012EF
 - expected_values:
     CORVETTE_MAF: 5.21
   response: |-
