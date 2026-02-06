@@ -4,11 +4,11 @@ test_cases:
     CORVETTE_EOT: 71
   response: 142AF1110462153E6F
 - expected_values:
+    CORVETTE_EOT: 87
+  response: 142AF1110462153E7F
+- expected_values:
     CORVETTE_EOT: 58
   response: 18DAF1110462153E62
-- expected_values:
-    CORVETTE_EOT: 87
-  response: 18DAF1110462153E7F
 - expected_values:
     CORVETTE_EOT: 64
   response: |-
