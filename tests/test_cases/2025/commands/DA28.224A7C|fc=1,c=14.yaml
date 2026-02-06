@@ -7,6 +7,9 @@ test_cases:
     CORVETTE_BP: 300
   response: 142AF12804624A7C0D
 - expected_values:
+    CORVETTE_BP: 400
+  response: 142AF12804624A7C0E
+- expected_values:
     CORVETTE_BP: 600
   response: 142AF12804624A7C10
 - expected_values:
