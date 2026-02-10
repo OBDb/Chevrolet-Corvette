@@ -1,9 +1,9 @@
 command_id: DA11.22002F|fc=1,c=14
 test_cases:
 - expected_values:
-    CORVETTE_AUX_V: 15.3
-    CORVETTE_FLI: 60
-  response: 142AF1110462002F99
+    CORVETTE_AUX_V: 12.6
+    CORVETTE_FLI: 49.41176
+  response: 142AF1110462002F7E
 - expected_values:
     CORVETTE_AUX_V: 25
     CORVETTE_FLI: 98.03922
