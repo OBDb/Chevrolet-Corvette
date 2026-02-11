@@ -5,9 +5,9 @@ test_cases:
     CORVETTE_FLI: 49.41176
   response: 142AF1110462002F7E
 - expected_values:
-    CORVETTE_AUX_V: 25
-    CORVETTE_FLI: 98.03922
-  response: 142AF1110462002FFA
+    CORVETTE_AUX_V: 25.2
+    CORVETTE_FLI: 98.82353
+  response: 142AF1110462002FFC
 - expected_values:
     CORVETTE_AUX_V: 10.9
     CORVETTE_FLI: 42.7451
