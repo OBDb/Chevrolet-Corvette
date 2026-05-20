@@ -1,0 +1,11 @@
+command_id: DA28.224C30|fc=1,c=14
+test_cases:
+- expected_values:
+    CORVETTE_LNG_G: 0.00637
+  response: 142AF12805624C300004
+- expected_values:
+    CORVETTE_LNG_G: -0.19114
+  response: 142AF12805624C30FF88
+- expected_values:
+    CORVETTE_LNG_G: -0.01274
+  response: 142AF12805624C30FFF8
