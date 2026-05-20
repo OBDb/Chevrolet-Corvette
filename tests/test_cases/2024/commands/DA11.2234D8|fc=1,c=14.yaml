@@ -1,0 +1,5 @@
+command_id: DA11.2234D8|fc=1,c=14
+test_cases:
+- expected_values:
+    CORVETTE_DPF_PRESS: 635.37
+  response: 142AF111056234D8F831

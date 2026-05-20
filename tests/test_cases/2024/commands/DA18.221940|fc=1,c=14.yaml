@@ -1,0 +1,8 @@
+command_id: DA18.221940|fc=1,c=14
+test_cases:
+- expected_values:
+    CORVETTE_TFT: 37
+  response: 142AF118046219404D
+- expected_values:
+    CORVETTE_TFT: 48
+  response: 142AF1180462194058
