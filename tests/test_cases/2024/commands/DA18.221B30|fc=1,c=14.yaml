@@ -4,6 +4,9 @@ test_cases:
     CORVETTE_GEAR: PARK
   response: 142AF11804621B3002
 - expected_values:
+    CORVETTE_GEAR: REVERSE
+  response: 142AF11804621B3003
+- expected_values:
     CORVETTE_GEAR: D1
   response: 142AF11804621B3004
 - expected_values:
