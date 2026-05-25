@@ -4,8 +4,8 @@ test_cases:
     CORVETTE_FUEL_RATE: 0
   response: 142AF1110562005E0000
 - expected_values:
+    CORVETTE_FUEL_RATE: 12.15
+  response: 142AF1110562005E00F3
+- expected_values:
     CORVETTE_FUEL_RATE: 14.9
   response: 142AF1110562005E012A
-- expected_values:
-    CORVETTE_FUEL_RATE: 23.4
-  response: 142AF1110562005E01D4
