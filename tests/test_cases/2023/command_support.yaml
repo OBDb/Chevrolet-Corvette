@@ -49,7 +49,7 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "DA11":
   - DA11.220010|fc=1,c=14:CORVETTE_MAF
-  - DA11.22002F|fc=1,c=14:CORVETTE_AUX_V,CORVETTE_FLI
+  - DA11.22002F|fc=1,c=14:CORVETTE_FLI
   - DA11.22005E|fc=1,c=14:CORVETTE_FUEL_RATE
   - DA11.2211EA|fc=1,c=14:CORVETTE_MIS_5
   - DA11.2211EB|fc=1,c=14:CORVETTE_MIS_6
