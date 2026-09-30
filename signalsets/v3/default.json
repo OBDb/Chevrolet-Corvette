@@ -5,8 +5,7 @@
   ]},
 { "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "002F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
-    {"id": "CORVETTE_FLI",   "path": "Fuel",    "fmt": { "len": 8, "max": 100,  "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining",  "suggestedMetric": "fuelTankLevel"},
-    {"id": "CORVETTE_AUX_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 10,  "div": 100, "unit": "volts"   }, "name": "Battery voltage"}
+    {"id": "CORVETTE_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "DA11", "pri": "14", "fcm1": true, "cmd": {"22": "005E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
