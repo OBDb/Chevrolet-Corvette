@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "DA18", "type": "transmission" },
+    { "hdr": "DA28", "type": "abs" }
+  ],
+  "commands": [
 { "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4005"}, "freq": 3600, "filter": { "to": 2019 },
   "signals": [
     {"id": "CORVETTE_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor ID"}
@@ -495,11 +499,11 @@
   "signals": [
     {"id": "CORVETTE_EOL", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine oil life remaining"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "005C"}, "freq": 1, "filter": { "from": 2020 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "005C"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "CORVETTE_EOT_DA11_2_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "009D"}, "freq": 1, "filter": { "from": 2020 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "009D"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "CORVETTE_TOTAL_FUEL_CONSUMPTION_RATE_DA11", "path": "Fuel", "fmt": { "len": 16, "max": 1310.7, "mul": 200, "div": 10000, "unit": "gramsPerSecond" }, "name": "Total fuel consumption rate"}
   ]},
@@ -527,15 +531,15 @@
   "signals": [
     {"id": "CORVETTE_FUEL_INJECTION_C7", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 7"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "11EC"}, "freq": 1, "filter": { "from": 2020 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "11EC"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "CORVETTE_MISFIRES_C7_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 7"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "11ED"}, "freq": 1, "filter": { "from": 2020 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "11ED"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "CORVETTE_MISFIRES_C8_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 8"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1470"}, "freq": 1, "filter": { "from": 2020 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "1470"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "CORVETTE_EOP_DA11_2", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
@@ -611,11 +615,11 @@
   "signals": [
     {"id": "CORVETTE_TP_FL_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5006"}, "freq": 15, "filter": { "from": 2020 },
+{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5006"}, "freq": 15, "filter": { "from": 2020 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "CORVETTE_TP_FR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5007"}, "freq": 15, "filter": { "from": 2020 },
+{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5007"}, "freq": 15, "filter": { "from": 2020 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "CORVETTE_TP_RR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
