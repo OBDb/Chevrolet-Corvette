@@ -1,8 +1,8 @@
 command_id: DA11.22002F|fc=1,c=14
 test_cases:
 - expected_values:
-    CORVETTE_FLI: 5.88235
-  response: 142AF1110462002F0F
+    CORVETTE_FLI: 5.4902
+  response: 142AF1110462002F0E
 - expected_values:
     CORVETTE_FLI: 85.4902
   response: 142AF1110462002FDA
