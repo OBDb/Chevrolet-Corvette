@@ -1,6 +1,15 @@
 command_id: DA11.2AF111.22005C|fc=1,c=14,f=2020-
 test_cases:
 - expected_values:
+    CORVETTE_EOT_DA11_2_2: 66
+  response: 142AF1110462005C6A
+- expected_values:
+    CORVETTE_EOT_DA11_2_2: 69
+  response: 142AF1110462005C6D
+- expected_values:
+    CORVETTE_EOT_DA11_2_2: 70
+  response: 142AF1110462005C6E
+- expected_values:
     CORVETTE_EOT_DA11_2_2: 83
   response: 142AF1110462005C7B
 - expected_values:
